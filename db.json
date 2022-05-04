@@ -1,0 +1,50 @@
+{
+  "posts": [
+    { "id": 1, "name": "Jhon", "email": "jhon@gmail.com" },
+    { "id": 2, "name": "Alice", "email": "alice123@yahoo.com" },
+    {
+      "id": 3,
+      "name": "Elena",
+      "email": "e.star@yandex.ru"
+    },
+    {
+      "id": 4,
+      "name": "George",
+      "email": "bigg@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Max",
+      "email": "max1999@mail.ru"
+    },
+    {
+      "id": 6,
+      "name": "Steve",
+      "email": "strangerthingsfucker@hollywood.me"
+    },
+    {
+      "id": 7,
+      "name": "Karl",
+      "email": "stoleklaraskorals@hehe.he"
+    },
+    {
+      "id": 8,
+      "name": "Spoon",
+      "email": "zzzz@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Slave",
+      "email": "bossofthegym@gym.gym"
+    },
+    {
+      "id": 10,
+      "name": "Master",
+      "email": "dungeonmaster@slave.com"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
