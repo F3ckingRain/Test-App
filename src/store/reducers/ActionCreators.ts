@@ -1,21 +1,11 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 import { IUser } from "../../models/IUser";
 import { AppDispatch } from "../store";
 import { authSlice } from "./AuthSlice";
 import { userSlice } from "./UserSlice";
 
-/*
-export const fetchUsers = () => async (dispatch: AppDispatch) => {
-    try {
-        dispatch(userSlice.actions.usersFetching())
-        const response = await axios.get<IUser[]>('https://jsonplaceholder.typicode.com/users')
-        dispatch(userSlice.actions.usersFetchingSuccess(response.data))
-    } catch (e) {
-        dispatch(userSlice.actions.usersFetchingError((e as AxiosError).message))
-    }
-}
-*/
+
 export const fetchUser = createAsyncThunk('user/fetchAll', async(_void, thunkAPI) => {
     try {
         const response  = await axios.get<IUser[]>('http://localhost:5000') 

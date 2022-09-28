@@ -1,0 +1,36 @@
+.userItem {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid teal;
+  border-radius: 4px;
+  padding: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  &__btn {
+    padding: 5px;
+    border: 1px solid teal;
+    border-radius: 4px;
+    background: none;
+  }
+}
+
+.userComponent {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  &__inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}

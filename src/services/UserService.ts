@@ -1,5 +1,4 @@
 import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/dist//query/react'
-import { build } from '@reduxjs/toolkit/dist/query/core/buildMiddleware/cacheLifecycle'
 import { IUser } from '../models/IUser'
 
 
